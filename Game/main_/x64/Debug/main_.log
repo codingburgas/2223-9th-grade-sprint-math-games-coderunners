@@ -1,1 +1,8 @@
-﻿  main_.vcxproj -> C:\Users\HP\OneDrive\Работен плот\2223-9th-grade-sprint-math-games-coderunners\Game\main_\x64\Debug\main_.exe
+﻿  about_the_game.cpp
+C:\Users\HP\OneDrive\Работен плот\2223-9th-grade-sprint-math-games-coderunners\Game\main_\about_the_game.cpp(26,71): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\HP\OneDrive\Работен плот\2223-9th-grade-sprint-math-games-coderunners\Game\main_\about_the_game.cpp(26,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\HP\OneDrive\Работен плот\2223-9th-grade-sprint-math-games-coderunners\Game\main_\about_the_game.cpp(29,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\HP\OneDrive\Работен плот\2223-9th-grade-sprint-math-games-coderunners\Game\main_\about_the_game.cpp(29,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\HP\OneDrive\Работен плот\2223-9th-grade-sprint-math-games-coderunners\Game\main_\about_the_game.cpp(33,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\HP\OneDrive\Работен плот\2223-9th-grade-sprint-math-games-coderunners\Game\main_\about_the_game.cpp(33,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  main_.vcxproj -> C:\Users\HP\OneDrive\Работен плот\2223-9th-grade-sprint-math-games-coderunners\Game\main_\x64\Debug\main_.exe

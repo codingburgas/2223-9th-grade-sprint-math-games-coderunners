@@ -24,6 +24,9 @@
     <ClCompile Include="learn_menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="about_the_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="play-menu.h">
@@ -33,6 +36,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\raylib\out\build\x64-Debug\raylib\include\raylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="about-the-game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main-menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

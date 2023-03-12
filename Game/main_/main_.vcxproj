@@ -134,13 +134,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="about_the_game.cpp" />
     <ClCompile Include="learn_menu.cpp" />
     <ClCompile Include="main_.cpp" />
     <ClCompile Include="play_menu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\raylib\out\build\x64-Debug\raylib\include\raylib.h" />
+    <ClInclude Include="about-the-game.h" />
     <ClInclude Include="learn-menu.h" />
+    <ClInclude Include="main-menu.h" />
     <ClInclude Include="play-menu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

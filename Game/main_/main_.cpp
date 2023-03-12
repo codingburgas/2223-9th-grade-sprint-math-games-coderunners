@@ -1,8 +1,10 @@
 #include "raylib.h"
 #include "play-menu.h"
 #include "learn-menu.h"
+#include "about-the-game.h"
 
-int main()
+
+void mainMenu()
 {
     const int screenWidth = 1920;
     const int screenHeight = 985;
@@ -53,7 +55,7 @@ int main()
             DrawText("ABOUT THE GAME", aboutTheGameButton.x + 25, aboutTheGameButton.y + 20, 37, WHITE);
             if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
             {
-
+                aboutTheGame();
             }
         }
 
@@ -64,6 +66,11 @@ int main()
     }
 
     CloseWindow();
+}
+
+int main()
+{
+    mainMenu();
 
     return 0;
 }
