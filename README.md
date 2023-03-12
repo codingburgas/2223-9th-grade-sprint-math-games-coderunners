@@ -9,6 +9,15 @@
 <h4 align="center">We are team CODE RUNNERS and we want to show you our game.</h4>
 <hr>
 
+<p align="center">
+<img src = "https://img.shields.io/github/languages/count/codingburgas/2223-9th-grade-sprint-math-games-coderunners?style=for-the-badge">
+<img src = "https://img.shields.io/github/contributors/codingburgas/2223-9th-grade-sprint-math-games-coderunners?style=for-the-badge">
+<img src = "https://img.shields.io/github/repo-size/codingburgas/2223-9th-grade-sprint-math-games-coderunners?style=for-the-badge">
+<img src = "https://img.shields.io/github/last-commit/codingburgas/2223-9th-grade-sprint-math-games-coderunners?style=for-the-badge">
+<img src = "https://img.shields.io/github/languages/top/codingburgas/2223-9th-grade-sprint-math-games-coderunners?style=for-the-badge">
+<p>
+<br>
+
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents">Table of Contents</h2>
 
