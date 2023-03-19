@@ -6,7 +6,9 @@
 <h3 align="center"> Programming is not about typing, it's about thinking. - Rich Hickey </h3>  
 
 <hr>
-<h4 align="center">We are team CODE RUNNERS and we want to show you our game.</h4>
+<h4 align="center">We are team CODE RUNNERS and we want to show you our game:</h4>
+<br>
+<h2 align="center">"EduWise"</h2>
 <hr>
 
 <p align="center">
