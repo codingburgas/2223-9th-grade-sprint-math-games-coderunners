@@ -1,5 +1,5 @@
 <p align="center">
-<img width = "200" height = "150" src = https://cdn.discordapp.com/attachments/1083085329872994330/1084450091470954556/image.png alt="Code Runners Logo">
+<img width = "200" height = "150" src = https://cdn.discordapp.com/attachments/1083085329872994330/1084450090967642224/image.png alt="Code Runners Logo">
 </p>
 
 <h1 align="center"> CODE RUNNERS </h1>
@@ -35,7 +35,7 @@
 <h2 id="about-the-project">About The Project</h2>
 
 <p align="justify">
-  Information to be added.
+  Our game is called "EduWise" and its task is to make learning the number systems easier. It has 2 games which test your skills of transformation: from a whole number to a number system, from a number system to a whole number, etc. It has a main menu with options of selecting the game that you want to play, and after selecting the option you're directly sent to the game. We hope that after playing, you find the number systems easier. Thank you!
 </p>
 
 
@@ -50,7 +50,7 @@
 
 |                               Game                                    |                               Main Menu                                |
 | :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| Images to be added.                                                   | Images to be added.                                                    |
+| Images to be added.                                                   | <img src="https://cdn.discordapp.com/attachments/819832109031096321/1087027134414991510/image.png" alt="Main Menu Photo">                                                   |
 
 </details>
 
@@ -61,7 +61,6 @@
 
 ##  Used technologies
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png" width="20" alt="Visual Studio 2022 Logo"> <a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2022</a>
-- <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Raylib_logo.png" width="20" alt="Raylib Logo"> <a href="https://www.raylib.com/">Raylib</a>
 - <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" alt="GitHub Logo"> <a href="https://github.com/">GitHub</a>
 - <img src="https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png" width="20" alt="Discord Logo"> <a href="https://discord.com/">Discord</a>
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png" width="20" alt="MS Word Logo"> <a href="https://en.wikipedia.org/wiki/Microsoft_Word">MS Word</a>
@@ -86,7 +85,7 @@
   <b>Bozhidar Dimov (Front-End Developer)</b> <br>
   Email: <a>BADimov21@codingburgas.bg</a> <br>
 
-  <b>Gospodin Radev(Back-End Developer)</b> <br>
+  <b>Gospodin Radev (Back-End Developer)</b> <br>
   Email: <a>GSRadev21@codingburgas.bg</a> <br>
 
   <b>Kristian Gaidov (QA Engineer)</b> <br>
