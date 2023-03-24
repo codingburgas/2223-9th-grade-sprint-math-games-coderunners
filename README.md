@@ -7,7 +7,6 @@
 
 <hr>
 <h4 align="center">We are team CODE RUNNERS and we want to show you our game:</h4>
-<br>
 <h2 align="center">"EduWise"</h2>
 <hr>
 
