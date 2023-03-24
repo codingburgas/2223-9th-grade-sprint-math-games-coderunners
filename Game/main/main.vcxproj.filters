@@ -21,9 +21,15 @@
     <ClCompile Include="bitwise_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="guessTheNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bitwise_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guessTheNumber.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

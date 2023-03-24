@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include "bitwise_test.h"
+#include "guessTheNumber.h"
 using namespace std;
 
 void drawName()
@@ -20,10 +21,10 @@ void drawName()
     cout << setw(78) << "|======================|" << endl;
     cout << setw(77) << "| Your options:      |" << endl;
     cout << setw(77) << "|                    |" << endl;
-    cout << setw(77) << "|  1. Play & Learn   |" << endl;
+    cout << setw(77) << "| 1. Bitwise Test    |" << endl;
     cout << setw(77) << "|      Enter 1;      |" << endl;
     cout << setw(77) << "|                    |" << endl;
-    cout << setw(77) << "|  2.  Revise        |" << endl;
+    cout << setw(77) << "| 2. Guess The Number|" << endl;
     cout << setw(77) << "|      Enter 2;      |" << endl;
     cout << setw(77) << "|                    |" << endl;
     cout << setw(77) << "|                    |" << endl;
@@ -33,9 +34,10 @@ void drawName()
     cout << setw(78) << "|======================|" << endl;
     cout << endl;
     cout << endl;
-    cout << setw(220) << "All rights reserved 2023, Team CodeRunners" << endl;
+    cout << setw(213) << "All rights reserved 2023, Team CodeRunners" << endl;
+    cout << endl;
+    cout << endl;
 }
-
 void play()
 {
     int choice;
@@ -45,7 +47,7 @@ void play()
     case 1:
         playBitwiseTest();
     case 2:
-
+        guessTheNumber();
     default:
         cout << "Invalid choice. Please choose from the given options." << endl;
     }
