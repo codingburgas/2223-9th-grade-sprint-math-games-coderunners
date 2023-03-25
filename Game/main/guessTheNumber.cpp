@@ -20,7 +20,6 @@ void randomBin()
         cout << arr[i];
     }
     cout << " to decimal number." << endl;
-    cout << endl;
     for (int i = 0; i < 8; i++)
     {
         sum = sum + arr[i] * pow(2, n);
@@ -40,30 +39,29 @@ void randomBin()
         {
             stopper = false;
             cout << "Sorry, your answer is incorrect, revise and come again!" << endl;
-            cout << endl;
         }
     }
     else
     {
         stopper = false;
         cout << "Sorry, your answer is incorrect, revise and come again!" << endl;
-        cout << endl;
     }
 }
 void randomDec()
 {
+
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<int> dis(0, 99);
     int number = dis(gen);
-    int binary[8], myGuess[8], counter = 0, answerLength = 0;
-    int i = 0;
+    int binary[8], myGuess[8], counter = 0, answerLength = 0, myGuessDub[8];
+    int i = 0, h = 0;
     cout << "Your task is to convert the decimal number ";
     cout << number;
     cout << " to binary number." << endl;
 
-    cout << "Use spaces after every digit!" << endl;
-
+    cout << "Use spaces after every digit! If the number begins with a zero, don't write additional zeros!" << endl;
+    cout << "Example: The number 3 is not (0011), but it is (11)!" << endl;
     while (number > 0)
     {
         binary[i] = number % 2;
@@ -71,6 +69,12 @@ void randomDec()
         answerLength++;
         i++;
     }
+    for (int j = answerLength - 1; j >= 0; j--)
+    {
+        myGuessDub[h] = binary[j];
+        h++;
+    }
+    cout << endl;
     cout << "Enter your answer here:";
     for (int k = 0; k < answerLength; k++)
     {
@@ -78,7 +82,7 @@ void randomDec()
     }
     for (int l = 0; l < answerLength; l++)
     {
-        if (binary[l] == myGuess[l])
+        if (myGuessDub[l] == myGuess[l])
         {
             counter++;
         }
@@ -93,7 +97,6 @@ void randomDec()
     {
         stopper = false;
         cout << "Sorry, your answer is incorrect, revise and come again!" << endl;
-        cout << endl;
     }
 }
 void guessTheNumber()
