@@ -1,5 +1,5 @@
 <p align="center">
-<img width = "200" height = "150" src = https://cdn.discordapp.com/attachments/1083085329872994330/1084450090967642224/image.png alt="Code Runners Logo">
+<img width = "200" height = "150" src = "https://cdn.discordapp.com/attachments/1030117743187480616/1089234626054193292/logo_coderunners-removebg-preview.png" alt="Code Runners Logo">
 </p>
 
 <h1 align="center"> CODE RUNNERS </h1>
