@@ -67,12 +67,14 @@ void bitwiseAnd()
     {
         pass = true;
         correctBit++;
+        cout << endl;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         pass = false;
+        cout << endl;
         cout << "Sorry, your answer is incorrect, revise and come again! You got " << correctBit << " correct." << endl;
     }
 }
@@ -83,7 +85,6 @@ void bitwiseOr()
     //Initialise the needed variables.
     cout << "What will be the output of ";
     int arr1[8], arr2[8], arr3[8], myGuess[8], counter = 0;
-    bool stopper = false;
     //Random number generator.
     random_device rd1;
     mt19937 mt1(rd1());
@@ -136,12 +137,14 @@ void bitwiseOr()
     {
         pass = true;
         correctBit++;
+        cout << endl;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         pass = false;
+        cout << endl;
         cout << "Sorry, your answer is incorrect, revise and come again! You got " << correctBit << " correct." << endl;
     }
 }
@@ -152,7 +155,6 @@ void bitwiseXOR()
     //Initialise the needed variables.
     cout << "What will be the output of ";
     int arr1[8], arr2[8], arr3[8], myGuess[8], counter = 0;
-    bool stopper = false;
     //Random number generator.
     random_device rd1;
     mt19937 mt1(rd1());
@@ -205,17 +207,21 @@ void bitwiseXOR()
     {
         pass = true;
         correctBit++;
+        cout << endl;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         pass = false;
+        cout << endl;
         cout << "Sorry, your answer is incorrect, revise and come again! You got " << correctBit << " correct." << endl;
     }
 }
 void playBitwiseTest()
 {
+    cout << endl;
+    cout << "You're playing: Bitwise Test" << endl;
     //Loop the functions.
     do
     {

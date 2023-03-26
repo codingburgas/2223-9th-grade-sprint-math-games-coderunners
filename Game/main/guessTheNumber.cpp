@@ -30,7 +30,7 @@ void randomBin()
     cout << " to decimal number." << endl;
     for (int i = 0; i < 8; i++)
     {
-        sum = sum + arr[i] * pow(2, n);
+        sum += arr[i] * pow(2, n);
         n--;
     }
     //Input your answer.
@@ -43,19 +43,16 @@ void randomBin()
         {
             stopper = true;
             correctNum++;
+            cout << endl;
             cout << "Congratulations, you are master!" << endl;
             cout << endl;
         }
         else
         {
+            cout << endl;
             stopper = false;
-            cout << "Sorry, your answer is incorrect, revise and come again!" << endl;
+            cout << "Sorry, your answer is incorrect. Try the decimal to binary conversion." << endl;
         }
-    }
-    else
-    {
-        stopper = false;
-        cout << "Sorry, your answer is incorrect, revise and come again! You got " <<  correctNum << " correct" << endl;
     }
 }
 void randomDec()
@@ -79,8 +76,8 @@ void randomDec()
     //Transforms decimal to binary using bitwise operations.
     while (number > 0) 
     {
-        binary[i] = number & 1;
-        number = number >> 1;
+        binary[i] = number & 1; //Bitwise &
+        number = number >> 1; //Bitwise >>
         answerLength++;
         i++;
     }
@@ -111,17 +108,21 @@ void randomDec()
     {
         stopper = true;
         correctNum++;
+        cout << endl;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         stopper = false;
+        cout << endl;
         cout << "Sorry, your answer is incorrect, revise and come again! You got "<<  correctNum << " correct." << endl;
     }
 }
 void guessTheNumber()
 {
+    cout << endl;
+    cout << "You're playing: Guess the Number" << endl;
     //Loop the functions.
     do
     {
