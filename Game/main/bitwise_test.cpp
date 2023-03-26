@@ -1,22 +1,27 @@
+//Include the needed libraries and header files.
 #include <iostream>
 #include <random>
 #include <string>
 using namespace std;
 
+//Initialise the needed global variables.
 bool pass = true;
+int correct = 0;
 
 void bitwiseAnd()
 {
+    //Initialise the needed variables.
     cout << "What will be the output of ";
     int arr1[8], arr2[8], arr3[8], myGuess[8], counter = 0;
+    //Random number generator.
     random_device rd1;
     mt19937 mt1(rd1());
     uniform_int_distribution<int> dist1(0, 1);
-
     random_device rd2;
     mt19937 mt2(rd2());
     uniform_int_distribution<int> dist2(0, 1);
 
+    //The arrays are accepting the values of the random generated number.
     for (int i = 0; i < 8; i++)
     {
         arr1[i] = dist1(mt1);
@@ -42,6 +47,7 @@ void bitwiseAnd()
         }
     }
     cout << endl;
+    //Input your answer.
     cout << "Enter your answer here:";
     for (int i = 0; i < 8; i++)
     {
@@ -54,31 +60,35 @@ void bitwiseAnd()
             counter++;
         }
     }
+    //Check if the answer is correct or not.
     if (counter == 8)
     {
         pass = true;
+        correct++;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         pass = false;
-        cout << "Sorry, your answer is incorrect, revise and come again!" << endl;
+        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correct << " correct." << endl;
     }
 }
 void bitwiseOr()
 {
+    //Initialise the needed variables.
     cout << "What will be the output of ";
     int arr1[8], arr2[8], arr3[8], myGuess[8], counter = 0;
     bool stoper = false;
+    //Random number generator.
     random_device rd1;
     mt19937 mt1(rd1());
     uniform_int_distribution<int> dist1(0, 1);
-
     random_device rd2;
     mt19937 mt2(rd2());
     uniform_int_distribution<int> dist2(0, 1);
 
+    //The arrays are accepting the values of the random generated number.
     for (int i = 0; i < 8; i++)
     {
         arr1[i] = dist1(mt1);
@@ -104,6 +114,7 @@ void bitwiseOr()
         }
     }
     cout << endl;
+    //Input your answer.
     cout << "Enter your answer here:";
     for (int i = 0; i < 8; i++)
     {
@@ -116,31 +127,35 @@ void bitwiseOr()
             counter++;
         }
     }
+    //Check if the answer is correct or not.
     if (counter == 8)
     {
         pass = true;
+        correct++;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         pass = false;
-        cout << "Sorry, your answer is incorrect, revise and come again!" << endl;
+        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correct << " correct." << endl;
     }
 }
 void bitwiseXOR()
 {
+    //Initialise the needed variables.
     cout << "What will be the output of ";
     int arr1[8], arr2[8], arr3[8], myGuess[8], counter = 0;
     bool stoper = false;
+    //Random number generator.
     random_device rd1;
     mt19937 mt1(rd1());
     uniform_int_distribution<int> dist1(0, 1);
-
     random_device rd2;
     mt19937 mt2(rd2());
     uniform_int_distribution<int> dist2(0, 1);
 
+    //The arrays are accepting the values of the random generated number.
     for (int i = 0; i < 8; i++)
     {
         arr1[i] = dist1(mt1);
@@ -166,6 +181,7 @@ void bitwiseXOR()
         }
     }
     cout << endl;
+    //Input your answer.
     cout << "Enter your answer here:";
     for (int i = 0; i < 8; i++)
     {
@@ -178,45 +194,48 @@ void bitwiseXOR()
             counter++;
         }
     }
+    //Check if the answer is correct or not.
     if (counter == 8)
     {
         pass = true;
+        correct++;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         pass = false;
-        cout << "Sorry, your answer is incorrect, revise and come again!" << endl;
+        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correct << " correct." << endl;
     }
 }
 void playBitwiseTest()
 {
+    //Loop the functions.
     do
     {
-        if (pass == true)
+        if (pass)
         {
             bitwiseAnd();
+            if (pass)
+            {
+                bitwiseOr();
+                if (pass)
+                {
+                    bitwiseXOR();
+                }
+                else
+                {
+                    break;
+                }
+            }
+            else
+            {
+                break;
+            }
         }
         else
         {
             break;
         }
-        if (pass == true)
-        {
-            bitwiseOr();
-        }
-        else
-        {
-            break;
-        }
-        if (pass == true)
-        {
-            bitwiseXOR();
-        }
-        else
-        {
-            break;
-        }
-    } while (pass == true);
+    } while (pass);
 }
