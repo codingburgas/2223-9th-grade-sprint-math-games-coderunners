@@ -6,7 +6,7 @@ using namespace std;
 
 //Initialise the needed global variables.
 bool pass = true;
-int correct = 0;
+int correctBit = 0;
 
 void bitwiseAnd()
 {
@@ -64,14 +64,14 @@ void bitwiseAnd()
     if (counter == 8)
     {
         pass = true;
-        correct++;
+        correctBit++;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         pass = false;
-        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correct << " correct." << endl;
+        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correctBit << " correct." << endl;
     }
 }
 void bitwiseOr()
@@ -131,14 +131,14 @@ void bitwiseOr()
     if (counter == 8)
     {
         pass = true;
-        correct++;
+        correctBit++;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         pass = false;
-        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correct << " correct." << endl;
+        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correctBit << " correct." << endl;
     }
 }
 void bitwiseXOR()
@@ -198,14 +198,14 @@ void bitwiseXOR()
     if (counter == 8)
     {
         pass = true;
-        correct++;
+        correctBit++;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         pass = false;
-        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correct << " correct." << endl;
+        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correctBit << " correct." << endl;
     }
 }
 void playBitwiseTest()

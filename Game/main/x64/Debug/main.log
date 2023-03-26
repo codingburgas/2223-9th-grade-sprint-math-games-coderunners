@@ -1,4 +1,5 @@
 ﻿  bitwise_test.cpp
-  main.cpp
+  guessTheNumber.cpp
+C:\Users\HP\OneDrive\Работен плот\2223-9th-grade-sprint-math-games-coderunners\Game\main\guessTheNumber.cpp(31,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   Generating Code...
   main.vcxproj -> C:\Users\HP\OneDrive\Работен плот\2223-9th-grade-sprint-math-games-coderunners\Game\main\x64\Debug\main.exe

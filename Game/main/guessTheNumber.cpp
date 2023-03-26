@@ -6,7 +6,7 @@ using namespace std;
 
 //Initialise the needed global variables.
 bool stopper = true;
-int correct = 0;
+int correctNum = 0;
 
 void randomBin()
 {
@@ -40,7 +40,7 @@ void randomBin()
         if (myGuess == sum)
         {
             stopper = true;
-            correct++;
+            correctNum++;
             cout << "Congratulations, you are master!" << endl;
             cout << endl;
         }
@@ -53,7 +53,7 @@ void randomBin()
     else
     {
         stopper = false;
-        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correct << " correct." << endl;
+        cout << "Sorry, your answer is incorrect, revise and come again! You got " <<  correctNum << " correct" << endl;
     }
 }
 void randomDec()
@@ -103,14 +103,14 @@ void randomDec()
     if (counter == answerLength)
     {
         stopper = true;
-        correct++;
+        correctNum++;
         cout << "Congratulations, you are master!" << endl;
         cout << endl;
     }
     else
     {
         stopper = false;
-        cout << "Sorry, your answer is incorrect, revise and come again! You got " << correct << " correct." << endl;
+        cout << "Sorry, your answer is incorrect, revise and come again! You got "<<  correctNum << " correct." << endl;
     }
 }
 void guessTheNumber()
