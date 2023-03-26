@@ -51,7 +51,7 @@
 
 |                               Game                                    |                               Main Menu                                |
 | :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| https://cdn.discordapp.com/attachments/1030117743187480616/1089597611541012520/image.png | <img src="https://cdn.discordapp.com/attachments/819832109031096321/1087027134414991510/image.png" alt="Main Menu Photo">                                                |
+| <img src="https://cdn.discordapp.com/attachments/1030117743187480616/1089597611541012520/image.png" alt="Bitwise Test Photo"> | <img src="https://cdn.discordapp.com/attachments/819832109031096321/1087027134414991510/image.png" alt="Main Menu Photo">                                                |
 
 </details>
 
