@@ -46,23 +46,20 @@ void play()
     //Enter the game that you want to play.
     string choice;
     bool num = 0;
-    do
+    cout << "Enter the number of the game that you want play: " << endl;
+    cin >> choice;
+    if (choice == "1")
     {
-        cout << "Enter the number of the game that you want play: ";
-        cin >> choice;
-        if (choice == "1")
-        {
-            playBitwiseTest();
-        }
-        else if (choice == "2")
-        {
-            guessTheNumber();
-        }
-        else
-        {
-            cout << "Please enter only numbers that are showing above! Try again!" << endl;
-        }
-    } while (num != 1);
+        playBitwiseTest();
+    }
+    else if (choice == "2")
+    {
+        guessTheNumber();
+    }
+    else
+    {
+        cout << "Please enter only numbers that are showing above! Try again!" << endl;
+    }
 }
 //Main function.
 int main()

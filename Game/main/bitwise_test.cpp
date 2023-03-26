@@ -10,6 +10,8 @@ int correctBit = 0;
 
 void bitwiseAnd()
 {
+    cout << endl;
+    cout << endl;
     //Initialise the needed variables.
     cout << "What will be the output of ";
     int arr1[8], arr2[8], arr3[8], myGuess[8], counter = 0;
@@ -34,7 +36,7 @@ void bitwiseAnd()
         cout << arr2[j];
     }
     cout << "?" << endl;
-    cout << "Use spaces after every digit!" << endl;
+    cout << "Use spaces after every digit! Your answer has to be 8 digits long!" << endl;
     for (int k = 0; k < 8; k++)
     {
         if (arr1[k] == 1 && arr2[k] == 1)
@@ -76,10 +78,12 @@ void bitwiseAnd()
 }
 void bitwiseOr()
 {
+    cout << endl;
+    cout << endl;
     //Initialise the needed variables.
     cout << "What will be the output of ";
     int arr1[8], arr2[8], arr3[8], myGuess[8], counter = 0;
-    bool stoper = false;
+    bool stopper = false;
     //Random number generator.
     random_device rd1;
     mt19937 mt1(rd1());
@@ -101,7 +105,7 @@ void bitwiseOr()
         cout << arr2[j];
     }
     cout << "?" << endl;
-    cout << "Use spaces after every digit!" << endl;
+    cout << "Use spaces after every digit! Your answer has to be 8 digits long!" << endl;
     for (int k = 0; k < 8; k++)
     {
         if (arr1[k] == 0 && arr2[k] == 0)
@@ -143,10 +147,12 @@ void bitwiseOr()
 }
 void bitwiseXOR()
 {
+    cout << endl;
+    cout << endl;
     //Initialise the needed variables.
     cout << "What will be the output of ";
     int arr1[8], arr2[8], arr3[8], myGuess[8], counter = 0;
-    bool stoper = false;
+    bool stopper = false;
     //Random number generator.
     random_device rd1;
     mt19937 mt1(rd1());
@@ -168,7 +174,7 @@ void bitwiseXOR()
         cout << arr2[j];
     }
     cout << "?" << endl;
-    cout << "Use spaces after every digit!" << endl;
+    cout << "Use spaces after every digit! Your answer has to be 8 digits long!" << endl;
     for (int k = 0; k < 8; k++)
     {
         if ((arr1[k] == 0 && arr2[k] == 1) || (arr1[k] == 1 && arr2[k] == 0))

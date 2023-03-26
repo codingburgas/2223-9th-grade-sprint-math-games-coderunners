@@ -10,6 +10,8 @@ int correctNum = 0;
 
 void randomBin()
 {
+    cout << endl;
+    cout << endl;
     //Initialise the needed variables.
     cout << "Your task is to convert the binary number ";
     int arr[8], sum = 0, n = 7, myGuess;
@@ -58,6 +60,8 @@ void randomBin()
 }
 void randomDec()
 {
+    cout << endl;
+    cout << endl;
     //Random number generator.
     random_device rd;
     mt19937 gen(rd());
@@ -86,8 +90,11 @@ void randomDec()
         h++;
     }
     cout << endl;
-    //Input your answer.
+    //Hint, so it can be easier for the user to guess the answer.
+    cout << "HINT: The answer is " << answerLength << " digits long!" << endl;
+    cout << endl;
     cout << "Enter your answer here:";
+    //Input your answer.
     for (int k = 0; k < answerLength; k++)
     {
         cin >> myGuess[k];
